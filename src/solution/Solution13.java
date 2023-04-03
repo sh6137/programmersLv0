@@ -18,7 +18,10 @@ public class Solution13 {
         return answer;
     }
 
-    public int[] 소인수분해(int n) {
+    public static void main(String[] args) {
+        System.out.println(소인수분해(14));
+    }
+    public static int[] 소인수분해(int n) {
         int[] answer = {};
         Set<Integer> integerSet = new HashSet<>();
         for (int i = 2; i <= n; i++) {
@@ -29,7 +32,7 @@ public class Solution13 {
         }
         answer = integerSet.stream().mapToInt(i -> i).toArray();
         Arrays.sort(answer);
-//        System.out.println(Arrays.toString(answer));
+        System.out.println(Arrays.toString(answer));
         return answer;
     }
 
