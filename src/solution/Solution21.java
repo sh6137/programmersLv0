@@ -7,9 +7,9 @@ import java.util.Comparator;
 public class Solution21 {
 
     public static void main(String[] args) {
-//        System.out.println(겹치는_선분의_길이(new int[][]{{0, 1}, {2, 5}, {3, 9}}));
+        System.out.println(겹치는_선분의_길이(new int[][]{{0, 2}, {-3,-1}, {-2,1}}));
 //        System.out.println(평행(new int[][]{{1, 4}, {9, 2}, {3, 8}, {11, 6}}));
-        System.out.println(옹알이(new String[]{"aya", "yee", "u", "maa", "wyeoo"}));
+//        System.out.println(옹알이(new String[]{"aya", "yee", "u", "maa", "wyeoo"}));
     }
 
     public static int 겹치는_선분의_길이(int[][] lines) {
